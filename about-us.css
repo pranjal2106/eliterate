@@ -1,0 +1,277 @@
+.navbar{
+  background-color:#eeeeee;
+  padding:0 5% ;
+  margin:0;
+}
+.btn-light{
+  background-color:  #0a97b0;
+  color:#eeeeee;
+  border-color: #0a97b0;
+  font-weight: 550;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: #0a97b0;
+}
+
+#navbar .container-fluid{
+padding: 0;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  font-weight:600;
+color: #0a97b0;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight:500;
+  margin:0 4px 0;
+}
+
+
+.Download-button{
+padding:5px;
+margin-left: 4px;
+}
+
+@media(max-width:990px)
+{.Download-button{
+  margin-top:5px;
+  margin-bottom: 10px;
+}
+.col{
+  padding: 5% 5% 0;
+}
+.col-lg-3{
+display: none;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #0a97b0;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;}
+.navbar-toggler:active{
+  border-color:#0a97b0;
+}
+
+.about-founder{
+  align-self: center;
+    position: relative;
+      background-color: #0a97b0;;
+      right: 5%;
+      width: 600%;
+
+        text-align: left;
+}
+
+
+.about-founder-2{
+  align-self: center;
+    position: relative;
+    text-align:right;
+      background-color: #0a97b0;;
+      right: 5%;
+    z-index: 1;
+    left:5%;
+      width: 600%;
+
+}
+h3{
+  font-size: 150%;margin:5% 5% 0;
+}
+h4{
+  font-size: 80%;
+  margin:0 5%;
+}
+#founders p{
+  font-size: 80%;margin:0 5% 5%;
+}
+}
+
+.navbar-dark .navbar-nav .nav-link , .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus  {
+  color: #0a97b0;
+  font-weight: 550;
+}
+
+
+
+.col{
+  padding: 5% 5%;
+    background-color:#0a97b0;
+}
+.col-lg-3{
+
+  justify-content: center;
+    background-color: #0a97b0;
+}
+
+
+h1 {
+    font-family:'Montserrat';
+    font-weight:600;
+    font-size:3.5rem;
+    line-height:1.5;
+    position: relative;
+    bottom:20px;
+    color: #eeeeee;
+    text-align: left;
+    /* border-bottom: 3.5px solid;
+    border-color: #eeeeee; */
+    display: inline-block;
+    }
+p{
+      font-family: "Montserrat";
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight:450;
+      color: #eeeeee;
+    }
+/* #founders{
+  text-align: center;
+} */
+#founders{
+  background-color: #eeeeee;
+  color: #e7dfd5;
+}
+.container{
+  padding-top: 5%;
+  text-align: center;
+}
+.founder-content{
+  display:flex;
+  padding-bottom: 10%;
+}
+
+
+.top-image{
+  height:50%;
+  position:relative;
+top:25%;
+}
+
+.founder-1,.founder-2{
+  margin:0 5%;
+  display: flex;
+}
+h2{
+color:#0a97b0;
+text-align: center;
+font-size: 3.5rem;
+margin-bottom: 7% ;
+display: inline-block;
+background-color:#eeeeee;
+/* border-bottom: 1px solid;
+border-width: 3.5px; */
+line-height: 1.5;
+}
+@media(min-width:990px){h3{
+  font-size:2rem;
+  margin:5% 5% 0;
+}
+h4{
+  margin:0 5%;
+  font-size: 1rem;
+}
+#founders p{
+  margin:0 5%;
+}
+
+
+
+.about-founder{
+  align-self: center;
+    position: relative;
+      background-color: #0a97b0;;
+      right: 5%;
+      width: 600px;
+        height: 230px;
+        text-align: left;
+}
+.about-founder-2{
+  align-self: center;
+    position: relative;
+    text-align:right;
+      background-color: #0a97b0;;
+      right: 5%;
+    z-index: 1;
+    left:5%;
+      width: 600px;
+      height: 230px;
+}
+}
+
+.founder-image-2{
+      width: 40%;
+      position: relative;
+      vertical-align: middle;
+      border: 2px solid;
+      right: 5%;
+      border-color:#eeeeee ;
+      text-align: left;
+}
+.founder-image{
+      width: 40%;
+      position: relative;
+      z-index: 0;
+      left: 5%;
+      vertical-align: middle;
+      border: 2px solid;
+      float: left;
+      border-color:#eeeeee ;
+}
+
+
+/* footer */
+
+#footer{
+  background-color: #0a97b0;
+  text-align: center;
+  padding:2% 15%;
+
+}
+
+.icons-fab{
+font-size:1rem;
+padding:20px 10px;
+color:#000;
+}
+#footer h3{
+  font-family: "Montserrat";
+  font-size: 2.75rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #eeeeee;
+  /* border-bottom: 2.5px solid;
+  border-color: #eeeeee;
+  display: inline-block; */
+}
+
+#footer p{
+font-family: "Montserrat";
+font-size: 1rem;
+line-height: 1.5;
+font-weight:400;
+color: #eeeeee;
+}
+.icons-fab{
+color:#eeeeee;
+padding:10px 10px 20px;
+}
+.body{
+color:#eeeeee;
+}
+
+hr{
+border-style:none;
+border-top-style:dotted;
+border-color:#EAF6F6;
+border-width:8px;
+width:30%;
+}
+s

@@ -1,0 +1,148 @@
+
+
+#navbar {
+  background-color: #27496d;
+  color: #fff;
+}
+
+#navbar .container-fluid{
+    padding: 0 5% 0rem;
+
+}
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+    color:"red";
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight:100;
+  color:#8f8f8f;
+margin:0 4px 0;
+}
+
+/* download-button */
+.Download-button{
+  padding:5px;
+
+
+}
+
+.nav-item {
+    padding: 0 0;
+    color: #8f8f8f;}
+
+    @media(min-width:990px)
+    {.Download-button{
+      margin-left:10px;
+
+    }
+    }
+
+    @media(max-width:990px)
+    {.Download-button{
+      margin-top:5px;
+    }
+    }
+
+    /* TEAM INFO */
+#team-info{
+      text-align: center;
+      padding:100px 100px 30px;
+      background-color: #dae1e7;
+}
+
+.image-team{
+  width:40%;
+  position: relative;
+  left:80px;
+  top:15px;
+}
+
+h2 {
+    font-family:'Montserrat';
+    font-weight: 700;
+    font-size:3rem;
+    line-height:1.5;
+    position: relative;
+    bottom:20px;
+    color: #142850;
+    }
+
+    .member-column{
+      padding:2% 3%;
+    }
+.card-body{
+  position: relative;
+  top:20px;
+  padding:0 20px 0px;
+}
+.card-body-link{
+  position: relative;
+  top:20px;
+  padding:0 20px 20px ;
+}
+.card-link{
+  position: relative;
+  bottom:10px;
+
+}
+.card{
+  position: relative;
+  left:123px;
+
+}
+#team-info-2{
+      text-align: center;
+      padding:0 100px 100px;
+    background-color: #dae1e7;}
+
+      /* footer */
+
+      #footer{
+        background-color: #142850;
+        text-align: center;
+        padding:2% 15%;
+
+      }
+
+      .icons-fab{
+      font-size:1rem;
+      padding:20px 10px;
+      color:#000;
+      }
+      h3{
+        font-family: "Montserrat";
+        font-size: 2.75rem;
+        line-height: 1.5;
+        font-weight: 500;
+        color: #fff;
+      }
+
+#footer p{
+  font-family: "Montserrat";
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight:300;
+  color: #fff;
+}
+.icons-fab{
+  color:#fff;
+  padding:10px 10px 20px;
+}
+.body{
+  color:#000;
+}
+
+hr{
+    border-style:none;
+    border-top-style:dotted;
+    border-color:#EAF6F6;
+    border-width:8px;
+    width:30%;
+}
